@@ -1,0 +1,61 @@
+.position-wallet-main-section {
+    width: fit-content;
+    /* margin: 8rem auto 0rem; */
+}
+
+/* mentioning the width and color etc */
+.wallet-main-section-wallet-backcard {
+    /* width: 1100px; */
+    width: 60vw;
+    background-color: #ECF0F2;
+    /* box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white; */
+    box-shadow: 10px 10px 20px #D3DBE7;
+
+}
+
+.middle-section {
+    padding: 2rem 0px;
+    min-height: calc(100vh - 340px);
+}
+
+.Address {
+    width: 10rem;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid rgb(7, 101, 133);
+    border-radius: 10px;
+}
+
+.Address .number {
+    width: 5rem;
+    overflow: hidden;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+.copy {
+    height: fit-content;
+    border: none;
+    padding: 0.2rem;
+}
+.copyImage {
+    width: 1.5rem;
+    padding: 0.2rem;
+    background-color: transparent;
+}
+
+.balance {
+    width: 50%;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.balance .value {
+    font-size: 3.5rem;
+    align-self: end;
+}
+.balance .symbol {
+    align-self: end;
+    font-size: 1rem;
+    color: rgb(7, 101, 133);
+}

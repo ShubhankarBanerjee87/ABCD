@@ -1,0 +1,32 @@
+.token-close-button{
+    width: 5%;
+    padding: 0px !important;
+    position: absolute;
+    left: 67%;
+    top: 18%;
+    transform: translate(-90%,-30%);
+    border: none;
+    background-color: #ECF0F2;
+}
+
+.token-transfer-close-button {
+    width:15%;
+    border: none;
+    background-color: #e3e6e9;
+    position: fixed;
+    right: 10px;
+    margin: 10px 5px;
+}
+
+.tokenWindow-navigation {
+    width: fit-content;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.tokenWindow-Activity {
+    text-align: center;
+    font-size: 110%;
+    font-weight: 400;
+    cursor: pointer;
+}

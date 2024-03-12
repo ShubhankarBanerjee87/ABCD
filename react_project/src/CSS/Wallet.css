@@ -1,0 +1,690 @@
+body {
+    background-color :#EBEFF2;
+    height: 100%;
+}
+
+.wallet-backcard {
+    width: 1100px;
+    background-color: #ECF0F2; 
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%,-30%);
+    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+}
+
+.wallet-logo {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-45%,-95%);
+
+} 
+
+.wallet-logo-width {
+    width: 10rem;
+}
+
+.wallet-backButton {
+    margin-top: 15px;
+    border: none;
+    background: none;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+
+
+.wallet-center-align {
+    width: fit-content;
+    margin: auto;
+}
+
+.wallet-top-align{
+    width: 100%;
+    position: relative;
+    top: 2%;
+}
+
+/* .Network {
+    width: fit-content;
+    margin: auto
+} */
+
+/* .top-section{
+    display: flex;
+    margin: 0rem 0px 1rem 0rem;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+    padding: 0.8rem 0px;
+} */
+
+/* .middle-section {
+    margin: 2rem 0px;
+    min-height: calc(100vh - 340px);
+} */
+
+/* .top-section div {
+    margin: 0px 1rem;
+} */
+
+/* .network-button {
+    border-radius: 0px;
+    background: white;
+    color: black;
+    border: 2px solid rgb(7, 101, 133);
+    border-radius: 1.5rem
+} */
+
+/* .account-button {
+    width: 20rem;
+    border-radius: 0px;
+    background: white;
+    color: black;
+    position: fixed;
+    left: 35%;
+    font-size: 1.1rem;
+    font-weight: 500;
+} */
+
+/* .custom-dropdown-menu {
+    border: 2px solid #4c849f;
+    border-radius: 0.5rem;
+}
+.network-item-button {
+    width: 15rem;
+    margin: 0.5rem;
+}
+.account-item-button {
+    width: 22rem;
+    margin: 0.5rem;
+} */
+
+.network-item-button.change-network-item {
+    text-align: center;
+    border: 2px solid #4c849f;
+    border-radius: 1rem;
+    margin-bottom: 0.1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.change-network-item:hover {
+    background-color: rgb(59, 147, 201);
+    color: white;
+}
+
+.account-item-button.add-import-item {
+    width: 22rem;
+    text-align: center;
+    border: 2px solid #4c849f;
+    border-radius: 1rem;
+    margin-bottom: 0.1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.add-import-item:hover{
+    background-color: rgb(59, 147, 201);
+    color: white;
+}
+
+
+/* .Address {
+    width: 10rem;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid rgb(7, 101, 133);
+    border-radius: 10px;
+}
+
+.Address .number {
+    width: 5rem;
+    overflow: hidden;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+.copy {
+    height: fit-content;
+    border: none;
+    padding: 0.2rem;
+}
+.copyImage {
+    width: 1.5rem;
+    padding: 0.2rem;
+    background-color: transparent;
+}
+
+.balance {
+    width: 50%;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.balance .value {
+    font-size: 3.5rem;
+    align-self: end;
+}
+.balance .symbol {
+    align-self: end;
+    font-size: 1rem;
+    color: rgb(7, 101, 133);
+} */
+
+.importToken{
+    margin-top: 0.5rem;
+    display: block;
+    width: fit-content;
+}
+
+.bottomLine-On-hover:hover {
+    border-bottom: 2px solid rgb(7, 101, 133);
+}
+
+.importToken .import{
+    border: none;
+    color: rgb(7, 101, 133);
+    font-weight: bold;
+    text-decoration: none;
+}
+hr {
+    width: 60%;
+    margin: auto;
+    color: rgb(3, 53, 69);
+    height: 5px !important;
+    border-radius: 150px;
+}
+/* .logo-importToken {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px ;
+} */
+.importToken-details{
+    margin-left: 5px ;
+}
+.token-symbol {
+    font-weight: 500;
+    font-family: inherit;
+}
+/* .importToken-logo{
+    padding: 4px 12px;
+    width: fit-content !important;
+    margin: 0px 5px 0px auto !important;
+    border-radius: 100px;
+    font-style: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+} */
+.TokenInfo {
+    justify-content: space-between;
+    padding: 5px 15px;
+    /* border-radius: 20px; */
+    /* background-color: rgb(249, 249, 249); */
+    /* border: 2px solid rgb(7, 101, 133); */
+    margin: 4px 0px;
+    cursor: pointer;
+}
+.TokenInfo:hover {
+    background-color: #aeb1b4;
+}
+
+.Activity-Info {
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(7, 101, 133);
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.ImportedTokens {
+    overflow-y:auto;
+}
+
+.ActivityList {
+    overflow-y:auto;  
+}
+
+.NFTList {
+    overflow-y:auto;  
+}
+
+.display-none {
+    display: none;
+
+}
+.next {
+    width: 30%;
+    margin-left: 8px;
+}
+
+.next-logo-div {
+    align-self: center;
+}
+
+.Transfer {
+    width: 100%;
+}
+
+.Send {
+    width: 7rem;
+    margin: 0px auto 15px;
+
+    border : none;
+    background-color: rgb(59, 147, 201);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+
+    font-weight: 500;
+}
+
+.send-image {
+    width: 1.5rem;
+    margin: 0px 0px 0px 5px;}
+
+.navigation {
+    width: 40%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.Tokens, .Activity {
+    width: 35%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.Tokens:hover, .Activity:hover {
+    color: rgb(34, 112, 179);
+}
+
+.navigation-active{
+    border-bottom: 2px solid rgb(34, 112, 179); 
+}
+
+
+.overlay-background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(4, 2, 2, 0.662);
+    z-index: 8;
+}
+
+.overlay-background-loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.615);
+    z-index: 100;
+}
+
+/* .custom-dropdown-toggle {
+    display: flex;
+    align-items: center;
+} */
+
+/* .static-logo-color {
+    background-color: lightblue;
+} */
+
+.Transfer-card {
+    width: 25vw;
+    background-color: #e5e9ecfa; 
+    z-index: 9;
+    margin: 20vh auto;
+    border-radius: 10px;
+}
+
+.importToken-card {
+    width: 20vw;
+    background-color: #e5e9ecfa;
+    z-index: 9;
+    margin: 20vh auto;
+    border-radius: 10px;
+}
+
+.coulumn-stick-together-left{
+    padding: 7px 16px;
+    width: fit-content !important;
+    margin: 0px 5px 0px auto !important;
+    border-radius: 100px;
+    /* background-color: blue;
+    color: white; */
+    font-style: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Random colors CSS Start */
+.random-token-background-color-blue {
+    background-color: blue;
+    color: white;
+}
+.random-token-background-color-red {
+    background-color: red;
+    color: white;
+
+}
+.random-token-background-color-black {
+    background-color: black;
+    color: white;
+
+}
+.random-token-background-color-yellow {
+    background-color: yellow;
+    color: black;
+}
+.random-token-background-color-purple {
+    background-color: purple;
+    color: white;
+}
+.random-token-background-color-grey {
+    background-color: grey;
+    color: white;
+
+}
+.random-token-background-color-lightblue {
+    background-color: rgb(34, 112, 179);
+    color: white;
+}
+/* Random colors CSS End */
+
+
+.coulumn-stick-together-right {
+    padding: 10px;
+
+    width: fit-content !important;
+    margin: 0px auto 0px 5px !important;
+}
+.importToken-details-row {
+    width: 90%;
+    margin: auto;
+    /* justify-content: space-around; */
+}
+.coloumn {
+    width: 40%;
+    margin: auto;
+}
+.text-align-center {
+    text-align: center;
+}
+.transfer-details {
+    width: 80%;
+    margin: 50px auto ;
+}
+
+.transfer-submit-button {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.importToken-submit-button {
+    margin: 30px 0px;
+    display: flex;
+}
+
+.importToken-form-submit{
+    width: 100%;
+    border: none;
+    background-color: rgb(20, 154, 198);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 20px;
+
+}
+.contract-address-link {
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 100 !important;
+}
+.contract-address-link:hover {
+    text-decoration: underline;
+}
+.input-error {
+    color: red;
+    font-weight: 100 !important;
+    font-size: 0.9rem;
+    font-family: cursive;
+}
+.edit-tokenName  {
+    color: rgb(3, 147, 195);
+    cursor: pointer;
+    margin: 0 10px;
+}
+.edit-tokenName:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid;
+}
+.input-text{
+    margin: 0px 3px 0px;
+    font-weight: 500;
+}
+
+.transfer-form-submit {
+    width: fit-content;
+    margin: auto;
+    border: none;
+    background-color: rgb(20, 154, 198);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+
+/* .form-element {
+    margin : 10px 0px; 
+} */
+
+.import-token-confirm-buttons {
+    border: 2px solid rgb(20, 154, 198);;
+    border-radius: 30px;
+    padding: 6px 0px;    
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.blue-button {
+    background-color: rgb(20, 154, 198);
+    color: #ffffff;
+}
+
+.hover-button:hover{
+    background-color: rgb(20, 154, 198);
+    color: #ffffff !important;
+}
+
+.button-close {
+    display: flex;
+    justify-content: end;
+}
+
+.importToken-close-button {
+    border: none;
+    background-color: #e3e6e9;
+    margin: 10px 5px;
+}
+
+.importToken-card-body {
+    transform: translateY(-30px);
+}
+
+.transfer-close-button  img {
+    width: 80%;
+}
+
+.importToken-heading {
+    width: fit-content;
+    margin: 15px auto;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 500;
+}
+.importToken-warning-block{
+    /* display: flex; */
+    width: 90%;
+    margin: 0px auto 15px;
+    border-left: 5px solid #f66a0a;
+    padding: 5px 15px;
+    background: #ffd33d19;
+    font-family: revert;
+    font-size: 1rem;
+}
+.importToken-warning-message{
+    display: flex; 
+}
+.warning-margin-right svg {
+    margin-right: 10px;
+    color: #f66a0a;
+}
+
+.importToken-form {
+    max-width: 90%;
+    margin: 25px auto;
+}
+
+.form-control {
+    padding: 8px;
+    margin-top: 10px ;
+}
+
+.navigation-tab-output {
+    width: 60%;
+    height: 20rem;
+    margin: 1rem auto;
+}
+
+.footer-section {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-link{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.support-link:hover {
+    border-bottom: 2px solid #367cfb;
+}
+
+.priceInDollor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem ;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.noData {
+    width: fit-content;
+    margin: auto;
+}
+
+.noData-image {
+    width: fit-content;
+    margin: auto;
+}
+
+.noData-text {
+    color: #aeb1b4;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+
+.noData-link {
+    margin: auto;
+    font-family: cursive;
+    width: fit-content;
+}
+
+.noData-link a {
+    text-decoration: none;
+}
+
+
+/* Notification box  */
+.wallet-notification-box {
+    background-color: rgb(65, 135, 65);
+    color: white;
+    font-weight: 200%;
+    width: 20rem;
+    text-align: center;
+    float: right;
+    margin: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+    position: absolute;
+    right: 0px;
+    opacity: 0;
+
+}
+
+.color-success {
+    background-color: rgb(65, 135, 65);
+}
+
+.color-info{
+    background-color: rgb(20, 154, 198);
+}
+
+.wallet-notification-box.opacity {
+    opacity: 1;
+}
+
+.wallet-notification-box.slide-in {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.wallet-notification-box.slide-out {
+    animation: slideOut 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}

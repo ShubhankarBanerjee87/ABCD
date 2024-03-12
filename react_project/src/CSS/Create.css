@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color :#EBEFF2;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+
+}
+
+.create-backcard {
+    width: 550px;
+    background-color: #ECF0F2; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+}
+
+.create-backButton {
+    margin-top: 15px;
+    border: none;
+    background: none;
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.create-center-align {
+    width: fit-content;
+    margin: auto;
+}
+
+.create-top-align{
+    width: 100%;
+    position: relative;
+    top: 2%;
+}
+
+.your-passphrase {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h6 {
+    width: fit-content;
+    margin: auto;
+}
+
+p {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.padding-change {
+    padding: 0rem 1rem;
+}
+
+.border-radius-change {
+    border-radius: 10px;
+}
+
+.down-buttons {
+    width: 80%;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.bttn {
+    margin-left: 6rem;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 50px;
+  }
+
+.phrase {
+    background-color: rgba(209, 216, 219, 0.907);
+    border-radius: 20px;
+    text-align : center;
+    color: black;
+    font-weight: 600;
+    display: flex !important; 
+    justify-content: center !important;
+    align-items: center;
+  }
+
+.logoImage {
+    width: 10rem;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #ECF0F2;
+}
+.progress {
+    width: 3rem;
+    height: 0.5rem;
+    background-color: rgba(209, 216, 219, 0.907);
+    margin: 0px 0.5em 0px 0.5em;
+    border-radius: 5px;
+}
+
+.progress-on {
+    background-color: #0d6efd ;
+}
+
+.hide-phrase {
+    background-color: rgba(25, 23, 23, 0.774);
+    width: 80%;
+    height: 14.5rem;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.eye-color {
+    color: white ;
+    cursor: pointer;
+}
+
+.copy-notification-box {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 200%;
+    width: 20rem;
+    text-align: center;
+    float: right;
+    margin: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.copy-notification-box.opacity {
+    opacity: 1;
+}
+
+.copy-notification-box.slide-in {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.copy-notification-box.slide-out {
+    animation: slideOut 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+/* Removed getting restored */
+
+
+.center-align {
+    width: fit-content;
+    margin: auto;
+}
+
+.position-wallet-main-section {
+    width: fit-content;
+    /* margin: 8rem auto 0rem; */
+}
+
+/* mentioning the width and color etc */
+.wallet-main-section-wallet-backcard {
+    /* width: 1100px; */
+    width: 60vw;
+    background-color: #ECF0F2;
+    /* box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white; */
+    box-shadow: 10px 10px 20px #D3DBE7;
+
+}
+
+.middle-section {
+    padding: 2rem 0px;
+    min-height: calc(100vh - 340px);
+}
+
+.Address {
+    width: 10rem;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid rgb(7, 101, 133);
+    border-radius: 10px;
+}
+
+.Address .number {
+    width: 5rem;
+    overflow: hidden;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+.copy {
+    height: fit-content;
+    border: none;
+    padding: 0.2rem;
+}
+.copyImage {
+    width: 1.5rem;
+    padding: 0.2rem;
+    background-color: transparent;
+}
+
+.balance {
+    width: 50%;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.balance .value {
+    font-size: 3.5rem;
+    align-self: end;
+}
+.balance .symbol {
+    align-self: end;
+    font-size: 1rem;
+    color: rgb(7, 101, 133);
+}
+
+/* Positioning the top header */
+.position-top-header {
+    width: fit-content;
+    margin: 7rem auto 0rem;
+}
+
+/* mentioning the width and color etc */
+.wallet-backcard {
+    /* width: 1100px; */
+    width: 60vw;
+    background-color: #ECF0F2; 
+    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+}
+
+/* the section which will contain the three div's */
+.top-section{
+    display: flex;
+    margin: 0rem 0px 0.5rem 0rem;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+    padding: 0.8rem 0px;
+}
+
+.top-section div {
+    margin: 0px 1rem;
+}
+
+.network-button {
+    border-radius: 0px;
+    background: white;
+    color: black;
+    border: 2px solid rgb(7, 101, 133);
+    border-radius: 1.5rem
+}
+
+.account-button {
+    width: 20rem;
+    border-radius: 0px;
+    background: white;
+    color: black;
+    transform: translateX(-9rem);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.custom-dropdown-menu {
+    border: 2px solid #4c849f;
+    border-radius: 0.5rem;
+}
+.network-item-button {
+    width: 15rem;
+    margin: 0.5rem;
+}
+.account-item-button {
+    width: 22rem;
+    margin: 0.5rem;
+}
+
+.custom-dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+
+/* For logo  */
+.logo-importToken {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px ;
+}
+
+.importToken-logo{
+    padding: 4px 12px;
+    width: fit-content !important;
+    margin: 0px 5px 0px auto !important;
+    border-radius: 100px;
+    font-style: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.static-logo-color {
+    background-color: lightblue;
+}
+
+
+.wallet-logo {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-45%,-95%);
+} 
+
+.wallet-logo-width {
+    width: 10rem;
+}
+
+
