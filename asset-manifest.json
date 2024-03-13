@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ABCD/static/css/main.d827d79c.css",
-    "main.js": "/ABCD/static/js/main.66a7a2d8.js",
+    "main.js": "/ABCD/static/js/main.539d3bb1.js",
     "static/js/787.bc7d429a.chunk.js": "/ABCD/static/js/787.bc7d429a.chunk.js",
     "static/media/yourCryptoLogo-removebg-preview.png": "/ABCD/static/media/yourCryptoLogo-removebg-preview.155771e6a28ce4d401b3.png",
     "static/media/87-875958_back-arrow-in-circle-symbol-removebg-preview.png": "/ABCD/static/media/87-875958_back-arrow-in-circle-symbol-removebg-preview.b7bc2f48dd7041c50a4f.png",
@@ -10,11 +10,11 @@
     "static/media/send.png": "/ABCD/static/media/send.1d921ef0183981c7cfea.png",
     "index.html": "/ABCD/index.html",
     "main.d827d79c.css.map": "/ABCD/static/css/main.d827d79c.css.map",
-    "main.66a7a2d8.js.map": "/ABCD/static/js/main.66a7a2d8.js.map",
+    "main.539d3bb1.js.map": "/ABCD/static/js/main.539d3bb1.js.map",
     "787.bc7d429a.chunk.js.map": "/ABCD/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d827d79c.css",
-    "static/js/main.66a7a2d8.js"
+    "static/js/main.539d3bb1.js"
   ]
 }
