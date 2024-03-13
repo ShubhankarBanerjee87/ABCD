@@ -1,20 +1,28 @@
 body {
-    background-color :#EBEFF2;
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
 }
+.btn{
+    color: #fff;
+    background-color: #AB47BC;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-color: transparent !important;
+}
 
 .backcard {
-    height : 500px;
-    width: 420px;
-    background-color: #ECF0F2; 
+    height : auto;
+    width: 90vw;
+    background-color: #bca3cf33; 
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
     border-radius: 20px;
+    border: 3px solid #AB47BC;
 }
 
 .center-align {
@@ -69,19 +77,24 @@ body {
 }
 
 .support-logo{
-    display: flex;
+    /* display: flex; */
+    display: none   ;
     margin-top: 1em;
 }
 
 .Create-card {
-    width: 600px;
-    background-color: #e5e9ecfa; 
+    width: 100vw;
+    background-color: #e5e9ecfa;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     z-index: 9;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    max-width: 600px;
 }
 
 .overlay-background{

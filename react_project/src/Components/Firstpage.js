@@ -162,8 +162,8 @@ function Firstpage() {
         <div className="top-align"><h4 className="center-align">YourCrypto Wallet welcomes you</h4>
         </div>
         <div className="center-align start-guide-text">To start with YourCrypto Wallet, create a new account or import an existing one</div>
-        <div className="start-guide-text center-align"><b>Supports: </b></div>
         <div className="support-logo center-align">
+        <div className="start-guide-text center-align"><b>Supports: </b></div>
           <img src={ethereumLogo} alt='Wallet' className="support-logoImage" />
           <img src={polygonLogo} alt='Wallet' className="support-logoImage" />
           <img src={avalancheLogo} alt='Wallet' className="support-logoImage" />

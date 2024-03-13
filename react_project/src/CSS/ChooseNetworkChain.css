@@ -8,13 +8,16 @@ body {
 
 
 .chooseNetwork-backcard {
-    width: 500px;
-    background-color: #ECF0F2; 
+    width: 98vw;
+    background-color: #ECF0F2;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+    max-width: 500px;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .create-backButton {
@@ -151,14 +154,14 @@ p {
 }
 
 .network-box.selected {
-    background-color: rgba(209, 216, 219, 0.907);
-    color: black;
+    background-color: rgb(64, 116, 228);
+    color: white;
 }
 
 .network-box:hover {
     cursor: pointer;
-    background-color: rgba(209, 216, 219, 0.907);
-    color: black;
+    background-color: rgb(64, 116, 228);
+    color: white;
 
 }
 

@@ -6,13 +6,17 @@ body {
 }
 
 .create-backcard {
-    width: 550px;
-    background-color: #ECF0F2; 
+    width: 100vw;
+    background-color: #ECF0F2;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     box-shadow: 10px 10px 20px #D3DBE7, -0.5rem -0.5rem 20px white;
+    height: 100vh;
+    max-width: 550px;
+    max-height: 650px;
+    overflow-y: auto;
 }
 
 .create-backButton {
