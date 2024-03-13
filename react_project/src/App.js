@@ -20,7 +20,7 @@ function App() {
   return (
     <switch>
     <Routes>
-      <Route path = "https://shubhankarbanerjee87.github.io/ABCD" element = {<Firstpage />}/>
+      <Route path = "/" element = {<Firstpage />}/>
       <Route path = "/create/pass-phase" element = {<Create />}/>
       <Route path = "/create/set-password" element = {<SetPassword />}/>
       <Route path = "/recover/set-password" element = {<RecoverSetPassword />}/>
